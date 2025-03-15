@@ -34,8 +34,8 @@ return 0;
 int main(){
 		char arr[3]={'t','k','m'};
 			srand(time(0));
-			cout<<"hoşgeldiniz taş makas kağıt oyununa "<<endl;
-			cout<<"lütfen seçiminizi giriniz"<<endl;
+			cout<<"hoÃ¾geldiniz taÃ¾ makas kaÃ°Ã½t oyununa "<<endl;
+			cout<<"lÃ¼tfen seÃ§iminizi giriniz"<<endl;
 	int tahmin;
 	char secim;
 	int user=0;
@@ -46,7 +46,7 @@ int main(){
 		
 
 	 tahmin=rand()%3;
-	cout<<"lütfen seçiminizi giriniz";
+	cout<<"lÃ¼tfen seÃ§iminizi giriniz";
 	cin>>secim;
 	
 	int sonuc=compare(secim,arr[tahmin]);
@@ -64,15 +64,15 @@ else
 
 }
 
-   cout<<"skor puanı"<<user<<"skor="<<system<<endl;
+   cout<<"skor puanÃ½"<<user<<"skor="<<system<<endl;
    
 }
 	if(user>system)
 	{
-		cout<<"tebrikler sen kazandın"<<user<<endl;
+		cout<<"tebrikler sen kazandÃ½n"<<user<<endl;
 	}
 else 
 {
-	cout<<"tebrikler bilgisayar sen kazandın"<<system<<endl;
+	cout<<"tebrikler bilgisayar sen kazandÃ½n"<<system<<endl;
 	}	
 }
